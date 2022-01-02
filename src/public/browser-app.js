@@ -4,7 +4,7 @@ const formDOM = document.querySelector('.task-form')
 const taskInputDOM = document.querySelector('.task-input')
 const formAlertDOM = document.querySelector('.form-alert')
 // Load tasks from /api/tasks
-  BASE_URL = 'http://localhost:3000/api/v1/tasks'
+  BASE_URL = 'api/v1/tasks'
   function showTask(url){
     fetch(url)
       .then((res) => {
